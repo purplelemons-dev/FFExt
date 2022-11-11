@@ -9,7 +9,7 @@
     "content_scripts": [
         {
             "matches": ["*://*.thebasement.group/*", "*://thebasement.group/*"],
-            "js": ["content.js"]
+            "js": ["script.js"]
         }
     ]
 }

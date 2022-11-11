@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Better QLess",
+    "version": "1.0",
+    "description": "Better",
+    "icons": {
+        "48": "icons/icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://merchant.qless.com/cec/*"],
+            "js": ["script.js"]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Copy Listener",
+    "version": "1.0",
+    "description": "Identifies event listeners on elements and copies them to the clipboard",
+    "icons": {
+        "48": "icons/icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
